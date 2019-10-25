@@ -1,0 +1,64 @@
+@charset "UTF-8";
+@media screen and (min-width:1024px) 
+{
+
+body{
+  margin:0;
+  padding:0;
+}
+video{
+  display:block;
+  position:relative;
+}
+nav{
+  width:30%;
+  height:30px;
+
+  margin-right: 5%;
+  right:5%;
+  top:10%;
+}
+nav ul{
+  list-style-type: none;
+  margin:0;
+  padding:0;
+}
+nav ul li{
+  display:inline;
+}
+nav ul li a:hover{
+background: rgba(0, 0,0, 0.5);
+letter-spacing: 1px;
+
+}
+section{
+  width:100%;
+  margin-right: 6.25%;
+  float: left;
+}
+section article{
+  width: 25%;
+  margin-right: 10%;
+  float: left;
+}
+section article.left{
+  margin-left: 6.25%;
+}
+section figure{
+  width: 35%;
+  display: block;
+  margin: 0;
+  padding: 0;
+  float: left;
+  margin-right: 10%;
+}
+section figure.pic_left{
+  margin-left: 10%;
+}
+section figure img{
+  min-width: 100%;
+  display: block;
+  margin: 0;
+
+}
+}
